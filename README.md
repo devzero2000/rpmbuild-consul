@@ -19,7 +19,7 @@ To build the package follow the steps outlined below
     source /etc/os-release
     tmp=$(mktemp -d)
 
-    git clone https://github.com/linuxhq/rpmbuild-consul.git ${tmp}
+    git clone https://github.com/devzero2000/rpmbuild-consul.git ${tmp}
     mkdir -p ${tmp}/{SOURCES,SRPMS}
     spectool -g -C ${tmp}/SOURCES ${tmp}/SPECS/*.spec
 
